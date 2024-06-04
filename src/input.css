@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* .navbar-fixed {
+    @apply fixed z-[9999];
+  } */
+
+  header {
+    @apply bg-light bg-opacity-70 backdrop-blur-sm shadow-sm;
+  }
+
+  h2 {
+    @apply font-bold text-lg mt-1.5 mb-3;
+  }
+
+  h4 {
+    @apply text-primary text-sm lg:text-base;
+  }
+
+  p {
+    @apply text-secondary text-sm;
+  }
+
+  .paragraf {
+    @apply text-secondary text-sm;
+  }
+
+  .a {
+    @apply text-base py-2 mx-8 flex;
+  }
+
+  .btn {
+    @apply bg-primary px-3 py-1 lg:px-5 rounded-full font-semibold hover:shadow-lg transition duration-300 ease-in-out;
+  }
+
+  .cart {
+    @apply text-xl mr-4 cursor-pointer;
+  }
+
+  .h3 {
+    @apply font-semibold;
+  }
+
+  .hamburger-active {
+  }
+}

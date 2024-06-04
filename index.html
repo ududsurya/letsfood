@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let'sFood</title>
+    <link href="src/output.css" rel="stylesheet" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="bg-light fixed top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold block py-6 text-xl"
+              >Let's<span class="text-primary">Food</span></a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              class="block absolute right-4 text-2xl lg:hidden"
+            >
+              <i class="bx bx-menu"></i>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-light shadow-lg rounded-lg max-w-[250px] w-full right-2 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#" class="a group-hover:text-primary">Home</a>
+                </li>
+                <li class="group">
+                  <a href="#service" class="a group-hover:text-primary"
+                    >Services</a
+                  >
+                </li>
+                <li class="group">
+                  <a href="#menu" class="a group-hover:text-primary">Menu</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="a group-hover:text-primary"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- hero start -->
+    <section class="pt-28 bg-light">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-bold text-2xl lg:text-5xl">
+              Be The Fastest In <br />Delivery Your
+              <span class="text-primary">Food</span>
+            </h1>
+            <p class="text-slate-400 my-2 text-sm lg:text-md lg:my-4">
+              Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit ut
+              aliquam, purus sit amet
+            </p>
+            <button class="btn">Get Started</button>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="mt-10">
+              <img src="img/hero.png" alt="" class="max-w-full mx-auto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- service start -->
+    <section id="service" class="pt-28">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-10 lg:max-w-lg">
+            <h4 class="text-primary text-sm lg:text-base">How it works</h4>
+            <h2>What We Serve</h2>
+            <p>
+              Product Quality Is Our Priority, And Always Guarantees Halal And
+              Safety Until It Is In Your Hands.
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-rows-1 justify-center lg:grid-rows-1 lg:grid-flow-col lg:gap-36 md:grid-rows-1 md:grid-flow-col md:gap-28"
+        >
+          <div class="w-full px-4 mb-10 text-center">
+            <img src="img/services/order 1.png" alt="" />
+            <h2>Easy to Order</h2>
+            <p>You only order through <span class="block">the app</span></p>
+          </div>
+          <div class="w-full px-4 mb-10 text-center">
+            <img src="img/services/delivery 1.png" alt="" />
+            <h2>Fastest Delivery</h2>
+            <p>Delivery will be on time</p>
+          </div>
+          <div class="w-full px-4 mb-10 text-center">
+            <img src="img/services/courier 1.png" alt="" />
+            <h2>Best Quality</h2>
+            <p>The best quality of food <span class="block">for you</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+
+    <!-- menu start -->
+    <section id="menu" class="pt-28">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-10 lg:max-w-lg">
+            <h4 class="text-primary text-sm lg:text-base">Our Menu</h4>
+            <h2>Our Popular Menu</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center items-center">
+          <div class="w-[280px] mb-10 px-4 flex">
+            <div class="bg-slate-200 rounded-xl shadow-lg">
+              <img src="img/menu/product 2.png" alt="" />
+              <div class="py-6 px-4 text-center">
+                <h3 class="font-bold">Mie Ramen</h3>
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h3 class="h3 ml-4">$ 20.2</h3>
+                <i class="bx bx-cart cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] mb-10 px-4 flex">
+            <div class="bg-slate-200 rounded-xl shadow-lg">
+              <img src="img/menu/product 2.png" alt="" />
+              <div class="py-6 px-4 text-center">
+                <h3 class="font-bold">Mie Ramen</h3>
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h3 class="h3 ml-4">$ 20.2</h3>
+                <i class="bx bx-cart cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] mb-10 px-4 flex">
+            <div class="bg-slate-200 rounded-xl shadow-lg">
+              <img src="img/menu/product 2.png" alt="" />
+              <div class="py-6 px-4 text-center">
+                <h3 class="font-bold">Mie Ramen</h3>
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h3 class="h3 ml-4">$ 20.2</h3>
+                <i class="bx bx-cart cart"></i>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] mb-10 px-4 flex">
+            <div class="bg-slate-200 rounded-xl shadow-lg">
+              <img src="img/menu/product 2.png" alt="" />
+              <div class="py-6 px-4 text-center">
+                <h3 class="font-bold">Mie Ramen</h3>
+                <p>Lorem ipsum</p>
+              </div>
+              <div class="flex justify-between items-center">
+                <h3 class="h3 ml-4">$ 20.2</h3>
+                <i class="bx bx-cart cart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-10 flex justify-center">
+          <button class="btn">More Menu</button>
+        </div>
+      </div>
+    </section>
+    <!-- menu end -->
+
+    <!-- signup start -->
+    <section id="signup" class="pt-20">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="flex justify-center items-center relative">
+            <img src="img/cta.png" alt="" />
+            <div class="absolute top-2 lg:top-20">
+              <h2
+                class="text-xs text-center text-white max-w-36 lg:text-2xl lg:max-w-96"
+              >
+                Join our member and get discount up to 50%
+              </h2>
+              <div class="flex justify-center">
+                <button
+                  class="text-[0.6rem] py-1 px-2 bg-primary rounded-full font-bold mx-auto lg:text-lg lg:px-6 lg:mt-4"
+                >
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- signup end -->
+
+    <!-- contact start -->
+    <section id="contact" class="pt-20 bg-light mt-20">
+      <div class="container">
+        <div class="w-full px-4 lg:px-4">
+          <div class="flex flex-wrap justify-between gap-10">
+            <div>
+              <h3 class="h3">Let'sFood</h3>
+              <p class="mb-4">
+                Jalan Semangka Raya, Telaga Murni,Cikarang Barat, Kab. Bekasi
+              </p>
+              <div class="text-2xl">
+                <i
+                  class="bx bxl-instagram bg-white hover:bg-primary p-2 rounded-full shadow-lg"
+                ></i>
+                <i
+                  class="bx bxl-facebook bg-white hover:bg-primary p-2 rounded-full shadow-lg"
+                ></i>
+                <i
+                  class="bx bxl-twitter bg-white hover:bg-primary p-2 rounded-full shadow-lg"
+                ></i>
+              </div>
+            </div>
+            <div>
+              <h3 class="h3">Company</h3>
+              <ul class="paragraf">
+                <li>About Us</li>
+                <li>Career</li>
+                <li>How It Work</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">Policy</h3>
+              <ul class="paragraf">
+                <li>FAQ</li>
+                <li>Privacy</li>
+                <li>Shipping</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="h3">Get in Touch</h3>
+              <ul class="paragraf">
+                <li>+62 000 0000 0000</li>
+                <li>food@example.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer class="pt-28 pb-10 bg-light">
+      <div class="container">
+        <div class="w-full px-4 text-center">
+          <hr class="border-solid border-2 mb-8" />
+          <p>© 2022 Let’sFood. ALL RIGHT RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
